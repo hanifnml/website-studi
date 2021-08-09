@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+ 
 body {
     margin: 0;
     padding: 0;
@@ -285,9 +286,9 @@ footer {
 footer span {
     color: #D83C3C;
     font-family: 'Courgette', sans-serif;
-}
+} 
 
-@media screen and (max-width:1000px) {
+@media screen and (min-width:1025px) {
     nav ul {
         display: inline;
     }
